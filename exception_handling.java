@@ -9,9 +9,11 @@ public class Solution {
             int y = s.nextInt();
 
             System.out.println(x / y);
-        } catch (InputMismatchException e) {
+        } 
+        catch (InputMismatchException e) {
             System.out.println(e.getClass().getName());
-        } catch (ArithmeticException e) {
+        } 
+        catch (ArithmeticException e) {
             System.out.println(e);
         }
     }
