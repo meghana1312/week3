@@ -23,9 +23,6 @@ class Solution4{
         System.out.print(my_calculator.divisor_sum(n) + "\n");
         sc.close();
     }
-    /*
-     *  ImplementedInterfaceNames method takes an object and prints the name of the interfaces it implemented
-     */
     static void ImplementedInterfaceNames(Object o){
         Class[] theInterfaces = o.getClass().getInterfaces();
         for (int i = 0; i < theInterfaces.length; i++){
